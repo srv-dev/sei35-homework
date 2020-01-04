@@ -1,0 +1,134 @@
+#nav-bar {
+  background-color: black;
+  padding: 15px;
+  font-size: 18px;
+}
+#menu > ul {
+  margin-left: 120px;
+}
+#menu li {
+  display: inline-block;
+  padding-right: 20px;
+}
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+#container {
+  margin: 0 auto;
+  width: 75vw;
+  text-align: center;
+}
+.logo-social #logo{
+  display: inline-flex;
+  justify-content: flex-start;
+  padding: 30px 530px 10px 0px;
+}
+.banner-shadow images{
+  padding: 0px;
+}
+.blurb {
+  border-style: inset;
+  display:flex;
+  justify-content: center;
+  padding: 10px;
+}
+#blurb-text {
+  padding: 0px 50px 0px 10px;
+  text-align: left;
+}
+.read-link {
+  text-decoration: none;
+  color: rgb(56, 151, 250);
+}
+#home-boxes {
+  display:flex;
+  justify-content: center;
+}
+.box-footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.box-footer > div {
+  padding-right: 50px;
+  color: rgba(240, 238, 230, 0.5);
+  width: 250px;
+}
+.box-footer > .text-widget {
+  width: 400px;
+}
+.box-footer h3 {
+  color: white;
+  font-family: 'Helvetica',serif;
+}
+footer {
+  background: rgb(11, 10, 11);
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.copyright {
+  display: inline-block;
+}
+span {
+  color: rgb(16, 162, 245);
+}
+#banner {
+  width: 100%;
+}
+.hb-images {
+  border:5px solid #ccd7ce;
+  padding: 2px;
+}
+.home-box > h3 {
+  text-align: left;
+  margin: 40px 0px 15px 0px;
+}
+.home-box {
+  padding: 0px 55px 0px 55px;
+}
+.home-box > p {
+  text-align: left;
+}
+.copyright {
+  display:flex;
+  justify-content: center;
+}
+#symbol {
+  padding-right: 600px;
+}
+.copyright {
+  color : rgba(240, 238, 230, 0.5);
+}
+hr {
+  border: 0.5px solid rgba(240, 238, 230, 0.5);
+}
+.social-icons {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+}
+#linkedin {
+  background: url('../images/socialNav.png') 0px -60px;
+}
+#twitter {
+  background: url('../images/socialNav.png') -60px -60px;
+}
+#facebook {
+  background: url('../images/socialNav.png') -120px -60px;
+}
+#rss {
+  background: url('../images/socialNav.png') -177px -60px;
+}
+#linkedin:hover {
+  background: url('../images/socialNav.png') 0px 0px;
+}
+#twitter:hover {
+  background: url('../images/socialNav.png') -60px 0px;
+}
+#facebook:hover {
+  background: url('../images/socialNav.png') -120px 0px;
+}
+#rss:hover {
+  background: url('../images/socialNav.png') -177px 0px;
+}
