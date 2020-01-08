@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CarsWithRails</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <header>
+      <h1> Vintage Cars show!!! 📣 </h1>
+      <nav>
+        <a href="<%= cars_path%>">Home</a>
+        <a href="<%= cars_new_path%>">Get a new Car!</a>
+      </nav>
+    </header>
+    <hr> <br>
+    <%= yield %>
+  </body>
+</html>

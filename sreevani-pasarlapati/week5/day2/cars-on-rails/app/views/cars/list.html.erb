@@ -1,0 +1,12 @@
+
+<body>
+  <% @cars.each do |car| %>
+    <div class='cars-display'>
+    <a href="<%= car_path(car.id) %>">
+    <% if car.image.present? %>
+      <%= image_tag car.image, alt: car.name, class: 'car-image' %>
+    <% end %>
+    </a>
+    </div>
+  <% end %>
+</body>

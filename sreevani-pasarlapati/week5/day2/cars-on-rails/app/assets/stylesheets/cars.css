@@ -1,0 +1,18 @@
+
+body {
+  text-align: center;
+  /* margin: 50px auto; */
+  background-color: rgba(113, 85, 209, 0.44);
+}
+.menu {
+  /* background-color: rgba(189, 93, 40, 0.88); */
+}
+.cars-display {
+  display: inline;
+  padding: 10px;
+  margin-top: 100px;
+}
+.car-image {
+  width: 200px;
+  height: 200px;
+}

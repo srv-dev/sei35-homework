@@ -1,0 +1,13 @@
+
+<h1> Welcome to Rock Paper Scissors game !!! </h1>
+
+<img src="https://www.esquireme.com/sites/default/files/styles/full_img/public/images/2017/05/29/rock_paper_scissors__2x.png?itok=EB8fRWP9" alt="">
+
+<p class='choices'> Your choice : <%= params[:throw] %> </p>
+<p class='choices'> Computer's choice : <%= @pick %>  </p>
+
+<% if  @win_or_draw == 'draw' then %>
+  <p class='results'> It's a draw! Try again! </p>
+<% else %>
+  <p class='results'> <%= @win_or_draw %> won!  </p>
+<% end %>

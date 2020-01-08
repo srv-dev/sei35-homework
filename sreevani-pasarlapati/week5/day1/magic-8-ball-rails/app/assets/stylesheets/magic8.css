@@ -1,0 +1,12 @@
+body {
+text-align: center;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+.answer {
+  color: rgb(168, 41, 251);
+  font-size: 25px ;
+  font-weight: bold;
+}

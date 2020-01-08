@@ -1,0 +1,14 @@
+
+
+
+  <% if @guessed_num == @secret_num %>
+    <h3> Congrats!! You guessed it right! </h3>
+  <% elsif @guessed_num < @secret_num %>
+    <h3> Wrong guess! Guess higher! </h3>
+  <% else %>
+    <h3> Wrong guess! Guess lower! </h3>
+  <% end %>
+
+
+
+  <a href='/guess_number'> Home </a>

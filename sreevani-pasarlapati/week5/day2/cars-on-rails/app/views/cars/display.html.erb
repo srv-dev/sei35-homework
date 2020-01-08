@@ -1,0 +1,22 @@
+
+<h2> <%= @car.name %> </h2>
+
+<a href="<%= car_edit_path(@car.id) %>">Edit</a>
+<a href="<%= car_destroy_path(@car.id) %>">Delete</a>
+
+<p>
+  <strong> Manufacturer : </strong>
+  <%= @car.manufacturer %>
+</p> <br>
+<p>
+  <strong> Model : </strong>
+  <%= @car.model %>
+</p> <br>
+<p>
+  <strong> Engine : </strong>
+  <%= @car.engine %>
+</p> <br>
+<p>
+  <strong> Car class : </strong>
+  <%= @car.car_class %>
+</p> <br>

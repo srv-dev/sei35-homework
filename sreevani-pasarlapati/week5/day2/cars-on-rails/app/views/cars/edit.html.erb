@@ -1,0 +1,27 @@
+
+<h2> Repair <%= @car.name %>  </h2>
+
+<form action="<%= car_path(@car.id)%>" method="post">
+
+<label>
+  Name : <input type="text" name="name" class="form-input"  value="<%= @car.name %>">
+</label> <br>
+<label>
+  Manufacturer : <input type="text" name="manufacturer" class="form-input" value="<%= @car.manufacturer %>">
+</label> <br>
+<label>
+  Model : <input type="text" name="model" class="form-input" value="<%= @car.model %>">
+</label> <br>
+<label>
+  Engine : <input type="text" name="engine" class="form-input" value="<%= @car.engine %>">
+</label> <br>
+<label>
+  Car class : <input type="text" name="car_class" class="form-input" value="<%= @car.car_class %>">
+</label> <br>
+<label>
+  Image : <input type="text" name="image" class="form-input" value="<%= @car.image %>">
+</label> <br><br>
+
+<input type="submit" value="UPDATE!">
+
+</form>

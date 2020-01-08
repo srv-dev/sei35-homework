@@ -1,0 +1,15 @@
+body {
+  background-color: #FFEA03;
+  text-align: center;
+}
+.results {
+  font-size: 30px;
+}
+img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.choices {
+  font-size: 20px;
+}
